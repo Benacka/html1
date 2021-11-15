@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+    <meta name="description" content="layout three">
+    <meta name="keywords" content="layout three, assignment3">
+    <meta name="author" content="Jason Benacka">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+
+	<title>Jason Benacka Page3</title>
+</head>
+
+<style>
+<!--I will be using Philosopher as my font, I feel as if it flows better than most others.-->
+
+<!--For the color scheme I am going with darker colors, but ones that give the feeling of warmth
+I took heavy insparation from a video game, Destiny 2, there is an armor shader called
+RustBerry that I like very much, and it is the main insparation. I then added some
+complimentary colors to it to improve.
+The colors are #D7CBB4, #BFAF96, #AA694B, #853F2F, #000000
+The use of the colors will vary, black will be the main background color, all words will be white,
+and the darkest brown, #853F2F, will be used to highlight the header and footer.
+Finally, the tan colors will be used for drop down menus.
+I will also add a logo, work in progress, in the top left corner of the web page.-->
+body {
+	font-family: 'Philosopher', sans-serif;
+	}
+	.grid-container {
+		display: grid;
+		grid-gap: 10px;
+		background-color: #000000;
+		padding: 10px;
+	}
+
+	.grid-item {
+		background-color: #853F2F;
+		text-align: center;
+		padding: 20px;
+		font-size: 30px;
+	}
+	
+	.item1 {
+		grid-column: 1 / span 3;
+		grid-row: 1 / span 1;
+	}
+
+	.item2 {
+		grid-column: 1 / span 1;
+		grid-row: 2 / span 2;
+	}
+
+	.item3 {
+		grid-column: 2 / span 1;
+		grid-row: 2 / span 2;
+	}
+	
+	.item4 {
+		grid-column: 3 / span 1;
+		grid-row: 2 / span 2;
+	}
+	
+	.item5 {
+		grid-column: 1 / span 3;
+		grid-row: 4 / span 1;
+	}
+	
+	.item6 {
+		grid-column: 1 / span 1;
+		grid-row: 5 / span 2;
+	}
+	
+	.item7 {
+		grid-column: 2 / span 2;
+		grid-row: 5 / span 2;
+	}
+	
+	.item8 {
+		grid-column: 1 / span 3;
+		grid-row: 7 / span 1;
+	}
+</style>
+<body>
+<h1>Layout of Page 3</h1>
+
+	<div class="grid-container">
+	<div style="color: #FFFFFF; font-size: 20px;" class="grid-item item1">HEADER & NAVIGATION</div>
+	<div style="color: #FFFFFF; font-size: 20px;" class="grid-item item2">BODY TEXT 1</div>
+	<div class="grid-item item3"><img src="images/placeholder.png" alt="Place Holder" style= "width:50%;height:100%;"></div>  
+	<div style="color: #FFFFFF; font-size: 20px;" class="grid-item item4">BODY TEXT 2</div>
+	<div style="color: #FFFFFF; font-size: 20px;" class="grid-item item5">BPDY TEXT 3</div>
+	<div class="grid-item item6"><img src="images/placeholder.png" alt="Place Holder" style= "width:25%;height:100%;"></div>
+	<div style="color: #FFFFFF; font-size: 20px;" class="grid-item item7">BODY TEXT 4</div>
+	<div style="color: #FFFFFF; font-size: 50px;" class="grid-item item8">FOOTER</div>
+</div>
+</body>
+</html>
