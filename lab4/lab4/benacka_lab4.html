@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<!--Jason Benacka-->
+<head>
+	<meta charset="UTF-8">
+    <meta name="description" content="layout one">
+    <meta name="keywords" content="layout one, assignment3">
+    <meta name="author" content="Jason Benacka">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+
+	<title>Jason Benacka Page1</title>
+</head>
+
+<style>
+<!--This is my CSS comment-->
+body {
+	font-family: 'Philosopher', sans-serif;
+	}
+	.grid-container {
+		display: grid;
+		grid-gap: 10px;
+		background-color: #000000;
+		padding: 10px;
+	}
+
+	.grid-item {
+		background-color: #853F2F;
+		text-align: center;
+		padding: 20px;
+		font-size: 30px;
+	}
+	
+	.item1 {
+		grid-column: 1 / span 3;
+		grid-row: 1;
+	}
+
+	.item2 {
+		grid-column: 1 / span 1;
+		grid-row: 2 / span 5;
+	}
+
+	.item3 {
+		grid-column: 2 / span 1;
+		grid-row: 2;
+	}
+	
+	.item4 {
+		grid-column: 2 / span 1;
+		grid-row: 3 / span 1;
+	}
+	
+	.item5 {
+		grid-column: 3 / span 1;
+		grid-row: 2 / span 2;
+	}
+	
+	.item6 {
+		grid-column: 2 / span 1;
+		grid-row: 4;
+	}
+	
+	.item7 {
+		grid-column: 2 / span 1;
+		grid-row: 5 / span 2;
+	}
+
+	.item8 {
+		grid-column: 1 / span 3;
+		grid-row: 7;
+	}
+	
+	.item9 {
+		grid-column: 3 / span 1;
+		grid-row: 4 / span 3;
+	}
+	
+	@media screen and (min-width: 500px) {
+  body {
+    background-color: blue;
+	}
+}
+	@media screen and (max-width: 900px) {
+  body {
+    background-color: red;
+  }
+}
+</style>
+<body>
+<h1>Layout of Page 1</h1>
+
+	<div class="grid-container">
+	<div style="color: #FFFFFF; font-size: 45px;" class="grid-item item1">HEADER</div>
+	<div style="color: #FFFFFF; font-size: 20px;" class="grid-item item2">NAVIGATION</div>
+	<div style="color: #FFFFFF; font-size: 20px;" class="grid-item item3">BODY TEXT 1</div>  
+	<div style="color: #FFFFFF; font-size: 20px;" class="grid-item item4">BODY TEXT 2</div>
+	<div style="color: #FFFFFF; font-size: 20px;" class="grid-item item5"><img src="images/placeholder.png" alt="Place Holder" style= "width:100%;height:100%;"></div>
+	<div style="color: #FFFFFF; font-size: 20px;" class="grid-item item6">BODY TEXT 3</div>
+	<div style="color: #FFFFFF; font-size: 20px;" class="grid-item item7">BODY TEXT 4</div>
+	<div style="color: #FFFFFF; font-size: 45px;" class="grid-item item8">FOOTER</div>
+	<div style="color: #FFFFFF; font-size: 20px;" class="grid-item item9"><img src="images/placeholder.png" alt="Place Holder" style= "width:50%;height:100%;"></div>
+</div>
+
+	<script>
+    //This is my java script comment 
+  </script>
+</body>
+</html>
