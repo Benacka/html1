@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Jason Benacka-->
+<head>
+	<meta charset="UTF-8">
+    <meta name="description" content="olive oil">
+    <meta name="keywords" content="home page, assignment4, olive oil">
+    <meta name="author" content="Jason Benacka">
+	
+	<link rel="stylesheet" href="css/nicepage.css" media="screen">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+
+	<title>Olive-Oil Home</title>
+
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="info.html">Info</a>
+  <a href="about.html">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<header>Olive Oil</header>
+
+<div class="flex-container">
+  <div><img src="images/oilandpot.jpg" alt="olive oil and pot" style= "width:auto ;height:auto;"></div>
+  <div>Olive oil is very nice, and I enjoy consuming it. So I am making a webpage about it.<br>There will be more text in the final project.</div>
+</div>
+
+
+<footer>
+  <p>Created by Jason Benacka, Olive Oil enthusiast.</p>
+</footer>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
